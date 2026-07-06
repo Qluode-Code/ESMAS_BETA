@@ -64,8 +64,11 @@ export default function OnboardingScreen() {
             className="rounded-xl bg-gradient-to-r from-blue-600 to-blue-500 py-4"
             activeOpacity={0.8}
           >
-            <Text className="text-center text-lg font-bold text-white">Get Started</Text>
+            <Text className="text-center text-lg font-bold text-white">Continue</Text>
           </TouchableOpacity>
+          <Text className="mt-3 text-center text-xs text-slate-400">
+            This is the auth entry point for the app experience.
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

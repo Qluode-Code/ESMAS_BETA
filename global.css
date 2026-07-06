@@ -1,3 +1,7 @@
+/* Tailwind entrypoints for NativeWind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "./styles/themes.css";
+@import "./styles/colors.css";
+@import "./styles/textures.css";
