@@ -1,7 +1,12 @@
+/* Theme token imports */
+@import "./styles/themes.css";
+@import "./styles/theme/colors.css";
+@import "./styles/theme/typography.css";
+@import "./styles/theme/shadows.css";
+@import "./styles/theme/textures.css";
+@import "./styles/theme/utilities.css";
+
 /* Tailwind entrypoints for NativeWind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "./styles/themes.css";
-@import "./styles/colors.css";
-@import "./styles/textures.css";
