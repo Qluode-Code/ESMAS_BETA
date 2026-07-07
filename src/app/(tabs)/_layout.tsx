@@ -7,23 +7,12 @@ export default function TabLayout() {
 
   return (
     <>
-      <StatusBar barStyle={colorScheme === "dark" ? "light-content" : "dark-content"} />
+      <StatusBar style={colorScheme === "dark" ? "light" : "dark"} />
       <Tabs
         screenOptions={{
           headerShown: false,
           tabBarStyle: {
-            backgroundColor: "#ffffff",
-            borderTopColor: "#e2e8f0",
-            borderTopWidth: 1,
-            paddingBottom: 8,
-            paddingTop: 8,
-            height: 60,
-          },
-          tabBarActiveTintColor: "#3b82f6",
-          tabBarInactiveTintColor: "#9ca3af",
-          tabBarLabelStyle: {
-            fontSize: 11,
-            marginTop: 4,
+            display: 'none',
           },
         }}
       >
@@ -31,13 +20,6 @@ export default function TabLayout() {
           name="home"
           options={{
             title: "Home",
-            headerShown: false,
-          }}
-        />
-        <Tabs.Screen
-          name="profile"
-          options={{
-            title: "Profile",
             headerShown: false,
           }}
         />

@@ -1,0 +1,26 @@
+:root {
+  --radius-card: 1.25rem;
+}
+
+.card-surface {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.text-brand {
+  color: var(--color-brand);
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+.border-divider {
+  border-color: var(--color-border);
+}

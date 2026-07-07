@@ -1,0 +1,7 @@
+:root {
+  --texture-grid: radial-gradient(circle at top left, rgba(255, 255, 255, 0.25), transparent 55%);
+}
+
+.bg-texture-soft {
+  background-image: var(--texture-grid);
+}
