@@ -31,7 +31,7 @@ export default function AuthForm({ mode }: AuthFormProps) {
   const buttonLabel = isSignUp ? "Create account" : "Sign in";
   const footerQuestion = isSignUp ? "Already have an account?" : "Need an account?";
   const footerAction = isSignUp ? "Sign in" : "Sign up";
-  const footerTarget = isSignUp ? "/(auth)/login" : "/(auth)/signup";
+  const footerTarget = isSignUp ? "/signin" : "/signup";
 
   const handleCodeChange = (value: string) => {
     const digits = value.replace(/\D/g, "").slice(0, 6);
