@@ -43,7 +43,7 @@ export default function OnboardingScreen() {
         <View className="absolute bottom-7 right-5 z-50">
           <TouchableOpacity
             activeOpacity={0.85}
-            onPress={() => router.push("/(auth)/signup" as never)}
+            onPress={() => router.push("/signup" as never)}
             className="h-16 w-16 items-center justify-center rounded-full bg-cyan-500 shadow-lg"
             accessibilityLabel="Get Started"
           >
